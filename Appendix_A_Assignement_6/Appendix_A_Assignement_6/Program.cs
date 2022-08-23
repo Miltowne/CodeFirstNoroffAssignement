@@ -1,3 +1,6 @@
+using Appendix_A_Assignement_6.Data;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -23,3 +26,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
